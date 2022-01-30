@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -153,29 +152,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/score_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_bg.png \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/score_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_icon.png \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_cn_back_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_cn_back_ii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_cn_front_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_cn_front_ii_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_india_back_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_india_back_ii_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_india_front_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_india_front_ii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_cn_back_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_cn_back_i_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_cn_back_iii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_cn_back_iii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_cn_front_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_cn_front_i_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_india_back_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_india_back_i_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_india_back_iii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_india_back_iii_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_india_front_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_india_front_i_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_ofilm_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_ofilm_cn_ii_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_ofilm_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_ofilm_india_ii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_sunny_cn_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_sunny_cn_i_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_sunny_cn_iii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_sunny_cn_iii_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_sunny_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_sunny_india_i_chromatix.xml \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -279,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
@@ -291,7 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
@@ -307,8 +289,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/lib_algo_svhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_algo_svhdr.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
@@ -322,11 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_t.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_w.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_w.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
@@ -399,69 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_video_face.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_video_weixin.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_front_ii_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_bokeh_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_bokeh_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_5M.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_bokeh.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_downscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_snapshot_upscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_flash_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_flash_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_fullsize_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_fullsize_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_back_ii_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_5M.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_downscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_snapshot_upscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_face.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_face_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_flash_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_fullsize_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_fullsize_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_face.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_india_front_ii_weixin_video_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_back_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_back_i_bokeh_preview.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_back_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_back_i_bokeh_preview_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_back_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_back_i_common.so \
@@ -558,96 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_front_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_front_i_video_face.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_front_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_front_i_video_weixin.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_cn_front_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_cn_front_i_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_bokeh_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_bokeh_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_5M.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_bokeh.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_downscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_snapshot_upscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_flash_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_flash_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_fullsize_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_fullsize_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_i_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_bokeh_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_bokeh_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_5M.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_bokeh.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_downscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_snapshot_upscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_flash_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_flash_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_fullsize_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_fullsize_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_back_iii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_back_iii_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_5M.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_downscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_snapshot_upscale.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_face.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_face_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_flash_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_fullsize_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_fullsize_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_default.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_face.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_sunny_india_front_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_sunny_india_front_i_weixin_video_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_ofilm_cn_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_ofilm_cn_ii_4k_preview_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_ofilm_cn_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_ofilm_cn_ii_4k_video_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_ofilm_cn_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_ofilm_cn_ii_bokeh_preview.so \
@@ -792,78 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_cn_iii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_cn_iii_weixin_video_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_cn_iii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_cn_iii_zsl_preview_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_cn_iii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_cn_iii_zsl_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_4k_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_4k_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_bokeh_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_bokeh_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_120.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_60.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_hfr_90.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_bokeh.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video_4k.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_120.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_120_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_60.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_60_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_90.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_hfr_90_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_pano_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_video_4k.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_zsl_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_i_zsl_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_4k_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_4k_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_bokeh_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_bokeh_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_common.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_120.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_60.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_hfr_90.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_liveshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_bokeh.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_snapshot_hht.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video_4k.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_cpp_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_default_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_default_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_120.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_120_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_60.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_60_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_90.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_hfr_90_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_pano_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_postproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_preview.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_snapshot.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_snapshot_hdr.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_video.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_video_4k.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_video_weixin.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_weixin_video_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_zsl_preview_3a.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx486_sunny_india_iii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx486_sunny_india_iii_zsl_video_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
@@ -871,13 +622,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastrpc_utf_stub.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libft2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2vendor.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -891,10 +640,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmibokeh_660.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_660.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmfpostdummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfpostdummy_daemon.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmfproc_dummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfproc_dummy_daemon.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -911,22 +660,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_arcsoftbokeh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcsoftbokeh_lib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_bp_svhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bp_svhdr.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_add_constant.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_grid_sum.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub2.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
@@ -971,18 +717,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_mfproc_postcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfproc_postcpp.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_mfproc_precpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfproc_precpp.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_wayne_imx376_ofilm_back_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wayne_imx376_ofilm_back_ii.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_wayne_imx376_ofilm_back_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wayne_imx376_ofilm_back_ii_eeprom.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_wayne_imx376_ofilm_front_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wayne_imx376_ofilm_front_ii.so \
@@ -1000,12 +746,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_wayne_imx486_sunny_iii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wayne_imx486_sunny_iii.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_wayne_imx486_sunny_iii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wayne_imx486_sunny_iii_eeprom.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
@@ -1019,7 +762,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
@@ -1035,15 +777,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
@@ -1186,16 +925,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_lib.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -1258,7 +987,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
