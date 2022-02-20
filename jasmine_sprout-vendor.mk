@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/imx376_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx376_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_cn_back_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_cn_back_ii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_ofilm_cn_front_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_ofilm_cn_front_ii_chromatix.xml \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/etc/camera/wayne_imx376_sunny_cn_back_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/wayne_imx376_sunny_cn_back_i_chromatix.xml \
@@ -310,6 +311,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_common.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_liveshot.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_preview.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_snapshot.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_snapshot_downscale.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_snapshot_upscale.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_video.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_cpp_video_default.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_default_preview_3a.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_default_video_3a.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_fullsize_preview_3a.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_fullsize_video_3a.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_postproc.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_snapshot.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_imx376_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376_video_default.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_bokeh_preview_3a.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_wayne_imx376_ofilm_cn_back_ii_common.so \
@@ -676,6 +692,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub2.so \
+    vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx376.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/jasmine_sprout/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
